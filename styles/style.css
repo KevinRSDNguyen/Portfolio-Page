@@ -28,3 +28,24 @@ body {
 #projects img:hover {
   opacity: 0.8;
 }
+
+#contact {
+	font-size: 100px;
+}
+
+/* Input custom styles for anchor tags in #contact section */
+a.nostyle:link {
+	text-decoration: inherit;
+	color: inherit;
+	cursor: pointer;
+}
+
+a.nostyle:visited {
+	text-decoration: inherit;
+	color: inherit;
+	cursor: pointer;
+}
+
+#contact a:hover {
+	color: #007bff;
+}
