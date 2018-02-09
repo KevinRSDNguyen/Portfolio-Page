@@ -2,6 +2,19 @@ body {
   margin-top: 52px; 
 }
 
+#showcase .container{
+	opacity: 0;
+	margin-top:50px;
+	animation: 1s slidefade 1s forwards;
+}
+
+@keyframes slidefade {
+	100% {
+		opacity: 1;
+		margin-top: 0px;
+	}
+}
+
 .bg-black {
   background: #222;
 }
